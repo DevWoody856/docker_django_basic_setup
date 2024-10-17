@@ -32,6 +32,11 @@ DB_USER=postgres
 DB_PASSWORD=postgres
 DB_HOST=db
 DB_PORT=5432
+
+POSTGRES_DB=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+
 ```
 
 Note: `DB_HOST` is the service name of the database in `docker-compose.yaml`. In this Docker configuration, it is db. Also, ensure that the SECRET_KEY in settings.py is set to read from the .env file.
