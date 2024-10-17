@@ -11,7 +11,7 @@ And I use pycharm for my IDE.
 
 1. Enter following command from the command line.
 ```
-git clone https://github.com/DevWoody856/docker_django_basic.git
+git clone https://github.com/DevWoody856/docker_django_basic_setup.git
 ```
 
 2. Enter following command in command line.
@@ -78,7 +78,7 @@ python manage.py createsuperuser
 
 11. Database set is finished.
 Enter the following command and the application should start.
-```python
+```bash
 python manage.py runserver
 ```
 
