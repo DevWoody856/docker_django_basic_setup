@@ -34,7 +34,7 @@ DB_HOST=db
 DB_PORT=5432
 ```
 
-Note: DB_HOST is the service name of the database in docker-compose.yaml. In this Docker configuration, it is db. Also, ensure that the SECRET_KEY in settings.py is set to read from the .env file.
+Note: `DB_HOST` is the service name of the database in `docker-compose.yaml`. In this Docker configuration, it is db. Also, ensure that the SECRET_KEY in settings.py is set to read from the .env file.
 
 5. From the project root, enter the following command to build and start the Docker containers:
 
